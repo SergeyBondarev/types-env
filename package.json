@@ -1,0 +1,29 @@
+{
+  "name": "types-env",
+  "version": "1.0.0",
+  "description": "Provides very simple type validation for your env variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyBondarev/types-env.git"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "type",
+    "env variable",
+    "environment",
+    "string",
+    "number",
+    "boolean"
+  ],
+  "author": "Sergey Bondarev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyBondarev/types-env/issues"
+  },
+  "homepage": "https://github.com/SergeyBondarev/types-env#readme"
+}
