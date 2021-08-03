@@ -6,7 +6,6 @@ const env = (key, type, defaultValue) => {
     case "string":
       return value;
     case "boolean":
-      if (!value) return false;
       const lower = value.toLowerCase();
       if (["1", "true", "yes", "y", "ok", "on"].includes(lower)) return true;
       if (["0", "false", "no", "n", "nok", "off"].includes(lower)) return false;
